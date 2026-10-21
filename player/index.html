@@ -1,0 +1,31 @@
+<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2b1708"><title>Historieafspiller · Halfdans side</title><meta name="robots" content="noindex, nofollow, noarchive"><link rel="stylesheet" href="/assets/player.css">
+<script>
+(function(){var S=["kwame", "kaya", "kuzin", "adila", "bikyezi", "juma", "lila", "amani", "ayana", "zarabee", "malik", "amina"],s=new URLSearchParams(location.search).get("story");if(S.indexOf(s)<0)s="kwame";
+document.write('<script src="/data/'+s+'.js"><\/script>');})();
+</script><link rel="stylesheet" href="/assets/portrait.css" /></head>
+<body class="player">
+<div class="stage">
+ <div class="bgblur" id="bg"></div>
+ <div class="frame" id="frame"><img id="imA" alt=""><img id="imB" alt=""></div>
+ <div class="top"><a id="booklink" href="/">⌂ Historier</a><span id="count">1 / 17</span></div>
+ <div class="textcard" id="text" aria-live="polite"></div>
+ <div class="dots" id="dots"></div>
+ <div class="controls">
+  <button class="btn nav" id="back" aria-label="Tilbage">◀ Tilbage</button>
+  <button class="btn play" id="play" aria-label="Afspil">▶ Afspil</button>
+  <button class="btn nav" id="next" aria-label="Næste">Næste ▶</button>
+ </div>
+</div>
+<div class="overlay" id="quiz"><div class="quiz">
+ <h2>Hvad ville du gøre?</h2>
+ <p id="qintro"></p>
+ <div class="choices" id="choices"></div>
+ <p class="fb" id="fb">Tryk på din idé!</p>
+ <button class="btn play" id="again">↺ Læs igen</button>
+ <p><a class="more" id="morelink" href="/">📚 Flere historier</a></p>
+ <p class="credit" id="credit"></p>
+</div></div>
+<audio id="audio" preload="auto"></audio>
+<script src="/assets/player-da.js"></script>
+</body></html>
