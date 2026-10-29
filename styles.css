@@ -1143,3 +1143,7 @@ html[data-theme="dark"] .badge-demo { background: rgba(255,255,255,0.08); }
   .mkweli-quote { max-width: 100%; overflow-wrap: anywhere; }
 }
 
+
+/* Visit counter only (this site is outside the Mkweli family strip) */
+.mkweli-counter { width: min(100% - 2rem, 1120px); margin: 1rem auto 0; padding: 0.75rem 0 1.25rem; text-align: center; font-size: 0.8125rem; opacity: 0.8; font-variant-numeric: tabular-nums; }
+.mkweli-counter p { margin: 0; }
